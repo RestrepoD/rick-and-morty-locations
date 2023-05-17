@@ -1,0 +1,22 @@
+.loc_data_cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  background-color: rgb(1, 11, 43);
+}
+.loc_data_cont h2 {
+  margin: auto;
+}
+.loc_data_cont ul {
+  margin: auto;
+}
+.loc_stats {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  list-style: none;
+}
