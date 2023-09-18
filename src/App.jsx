@@ -15,10 +15,12 @@ function App() {
     const locationInfo = await getLocationById(id);
     setLocation(locationInfo);
   }
+
   useEffect(() => {
     const random = getRandomNumber(1, 126);
     loadLocation(random);
   }, []);
+
   async function handleSubmit(id) {
     let locationData;
     if (!id) {
@@ -29,6 +31,7 @@ function App() {
     }
     setLocation(locationData);
   }
+
   return (
     <div className="main_app_cont">
       <h1 className="title_cont">

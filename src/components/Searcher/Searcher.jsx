@@ -27,11 +27,16 @@ const Searcher = ({ onSubmit }) => {
   }
   return (
     <div className="searchbar_cont">
-      <form onSubmit={handleSubmit}>
-        <input type="text" value={searchLocation} onChange={handleChange} />
+      <form onSubmit={handleSubmit} className="searchbar_form">
+        <input
+          type="text"
+          value={searchLocation}
+          onChange={handleChange}
+          className="search_input"
+        />
       </form>
       <p>{errorSearch}</p>
-      <button type="submit" onClick={handleSubmit}>
+      <button type="submit" onClick={handleSubmit} className="search_btn">
         Search
       </button>
     </div>

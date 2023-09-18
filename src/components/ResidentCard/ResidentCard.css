@@ -8,10 +8,12 @@
 img {
   width: 100%;
 }
+
 .res_info {
   list-style: none;
   padding: 0;
 }
+
 .res_info li {
   display: flex;
   justify-content: space-between;
